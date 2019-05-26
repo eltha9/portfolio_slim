@@ -1,0 +1,14 @@
+.custom-home{
+    /* height: 80vh; */
+    background-color: red;
+}
+.custom-home ul{
+    padding: 0 20px;
+    
+}
+.custom-home h1{
+    text-transform: uppercase;
+}
+.custom-home p{
+    width: 70%
+}

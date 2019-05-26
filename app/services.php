@@ -28,7 +28,7 @@ $container['db'] = function($container){
 
 
 // MAILER SERVICE 
-
+/*
 $transport = new Swift_SendmailTransport('/usr/sbin/sendmail -bs');
 // Create the Mailer using your created Transport
 $mailer = new Swift_Mailer($transport);
@@ -42,3 +42,4 @@ $message = (new Swift_Message('Wonderful Subject'))
 
 // Send the message
 $result = $mailer->send($message);
+*/

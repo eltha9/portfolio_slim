@@ -95,3 +95,4 @@ $RECYCLE.BIN/
 #personal ignone
 
 app/config.ini
+database_export/

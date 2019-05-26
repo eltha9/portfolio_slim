@@ -1,14 +1,43 @@
+/* home */
+
+
+
+/* presentation part */
 .custom-home{
-    /* height: 80vh; */
-    background-color: red;
+    margin-top: 56px;
+
+
 }
 .custom-home ul{
     padding: 0 20px;
     
 }
-.custom-home h1{
-    text-transform: uppercase;
+    .custom-home h1{
+        text-transform: uppercase;
+    }
+    .custom-home p{
+        width: 70%
+    }
+
+
+/* project view part  */
+
+.custom-global-view{
+    margin-bottom: 20px;
 }
-.custom-home p{
-    width: 70%
+.custom-global-view img{
+    width: 100%; /* pourquoi ça sert à rien ???*/
+    height: auto;
 }
+.custom-global-view ul{
+/* noen */
+}
+    .custom-global-view .date{
+        text-transform: uppercase;
+        
+        color: grey;
+    }
+    .custom-global-view .project-link{
+        margin-top: 10px;
+        text-align: right;
+    }

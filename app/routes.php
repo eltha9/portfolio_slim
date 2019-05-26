@@ -4,7 +4,13 @@
 $app->get('/', function($request, $response){
     
     $viewData=[];
-    return $this->view->render($response, './pages/home.twig');
+    $data = $this->db->query('SELECT * FROM project')->fetchAll();
+
+    $viewData['projects'] =$data;
+    
+    
+
+    return $this->view->render($response, './pages/home.twig', $viewData);
 
 })->setName('home');
 

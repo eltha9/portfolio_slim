@@ -1,9 +1,20 @@
+
+
+{% for project in projects %}
+
 <div class="row custom-global-view">
     <div class="col">
-        opeirzute
+        <img src="https://picsum.photos/id/819/600/600" class="img-fluid" alt="Responsive image">
     </div>
     <div class="col">
-        piuzerhfpi
+        <ul class="list-unstyled">
+            <li><h2>{{ project.name }}</h2></li>
+            <li class="date">{{ project.date|date('M Y') }}</li>
+            <li>{{ project.description }}</li>
+            <li class="project-link"><a href="{{  './project/' ~ project.name|replace({' ': "_"}) }}">See more</a></li>
+        </ul>
     </div>
 </div>
+{% endfor %}
+
 

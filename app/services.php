@@ -14,7 +14,7 @@ $container['view'] = function($container)
 };
 
 
-// data base
+// data base service 
 $container['db'] = function($container){
     $db = $container['settings']['db'];
     

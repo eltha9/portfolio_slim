@@ -14,11 +14,6 @@ require '../app/services.php';
 // Routes
 require '../app/routes.php';
 
-
-
-
-
-
 $app->run();
 
 

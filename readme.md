@@ -3,18 +3,19 @@
 ## todo
 
 home: 
-- path-for() for home 
-- first carater of title uppercase
+- [x] path-for() for home 
+- [ ] first carater of title uppercase
 
 project: 
-- all
+- [ ] all
 
 contact:
-- all
-- mail
+- [ ] all
+- [ ] mail
 
-
+admin:
+- [ ] all 
 
 ## other
-- websocket 
-- think other features 
+- [ ] websocket = fake socket js - php ???
+- [ ] think other features 

@@ -29,9 +29,22 @@ $container['db'] = function($container){
 
 // MAILER SERVICE 
 /*
+//transport 1 
+$transport = (new Swift_SmtpTransport('smtp.example.org', 25))
+  ->setUsername('your username')
+  ->setPassword('your password')
+
+
+  //transport 2
+
 $transport = new Swift_SendmailTransport('/usr/sbin/sendmail -bs');
+
+
+
+
 // Create the Mailer using your created Transport
 $mailer = new Swift_Mailer($transport);
+
 
 // Create a message
 $message = (new Swift_Message('Wonderful Subject'))

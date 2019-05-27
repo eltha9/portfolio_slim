@@ -97,3 +97,4 @@ $RECYCLE.BIN/
 app/config.ini
 database_export/
 robot.txt
+credentials.json

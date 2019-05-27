@@ -3,6 +3,7 @@
         "slim/slim": "^3.12",
         "slim/twig-view": "^2.5",
         "swiftmailer/swiftmailer": "^6.0",
-        "cboden/ratchet": "^0.4.1"
+        "cboden/ratchet": "^0.4.1",
+        "google/apiclient": "^2.0"
     }
 }

@@ -7,7 +7,7 @@
     <title>{{title}}</title>
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/styles/custom.css">
+    <link rel="stylesheet" href="{{base_url() ~ "/assets/styles/custom.css"}}">
 </head>
 <body>
 
@@ -37,7 +37,7 @@
             {% if key >= 1 %}
             <div class="dropdown-divider"></div>
             {% endif %}
-            <a class="dropdown-item" href="{{  './project/' ~ project.name|replace({' ': "_"}) }}">{{project.name}}</a>
+            <a class="dropdown-item" href="{{  base_url() ~ '/project/' ~ project.name|replace({' ': "_"}) }}">{{project.name}}</a>
             {% endfor %}
         </div>
       </li>

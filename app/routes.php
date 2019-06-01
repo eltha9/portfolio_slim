@@ -126,3 +126,15 @@ $app->get('/project/{name}', function($request, $response, $args){
     return $this->view->render($response, './pages/project.twig', $view_data);
 
 })->setName('project');
+
+
+// chat server handle
+$app->get('/chat', function($request, $response){
+    
+    $data = new StdClass();
+    $data->result = 0; // int http code
+    $data->content = time();
+
+    echo json_encode($data);
+    return $response;
+})->setName('chat');

@@ -1,3 +1,16 @@
 {% include 'partials/header.twig' %}
-project
+<div class="container project">
+    <div class="row first_img">
+        <img src="{{img.first_img}}" alt="">
+    </div>
+    <div class="row title">
+        <h1>{{text.title}}</h1>
+    </div>
+    <div class="row text-content">
+        <p>{{text.text}}</p>
+    </div>
+    <div class="row second_img">
+        <img src="{{img.last_img}}" alt="">
+    </div>
+</div>
 {% include 'partials/footer.twig' %}

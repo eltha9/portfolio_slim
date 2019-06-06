@@ -1,0 +1,34 @@
+{% include 'partials/header.twig'%}
+<form method="get" accept-charset="UTF-8" action="#">
+    <h2>Project info</h2>
+    <label>
+        name
+        <input type="text" name="name" placeholder="nom du projet">
+    </label>
+    <label>
+        Date
+        <input type="date" name="date" placeholder="date du projet">
+    </label>
+    <label>
+        Project description
+        <textarea name="description" id="" cols="30" rows="10"></textarea>
+    </label>
+
+    <h2> Project content</h2>
+    <label>
+        First image
+        <input type="text" name="project_img_first" placeholder="lien de l'image">
+    </label>
+    <label>
+        Contenue text
+        <textarea name="text_content" name="text" id="" cols="30" rows="10"></textarea>
+    </label>
+    <label>
+        Last image
+        <input type="text" name="project_img_last" placeholder="lien de l'image">
+    </label>
+
+    <input type="submit" value="Submit">
+</form>
+
+{% include 'partials/footer.twig'%}

@@ -1,29 +1,21 @@
 # a portfolio slim project
 
-## todo
+this is a simple portfolio slim
 
-home: 
-- [x] path-for() for home 
-- [ ] first carater of title uppercase
+## what i have use ? 
 
-project: 
-- [ ] all
+- swiftmailer (but phpmailer will be better)
+- php
+- slim
+- twig
 
-contact:
-- [ ] all
-- [ ] mail
-
-admin:
-- [ ] all 
+##featuers 
+ an admin page with no style :'(
 
 
-chat:
-- [ ] add monodb for chat
-- [ ] set up script for chat client
-- [ ] set up script for chat server
-- [ ]  include tchat on footer with is style
+## how install it
 
+`composer install`
+don't forget to import the database
 
-## other
-- [ ] websocket = fake socket js - php ???
-- [ ] think other features 
+Made with love by Théa Dos Santos aka @eltha9 (anciennement Philippe)

@@ -41,3 +41,31 @@
         margin-top: 10px;
         text-align: right;
     }
+
+/* PROJECT */
+
+.project{
+    margin-top: 60px !important;
+}
+
+.project .title{
+    margin-top: 20px;
+}
+
+
+
+
+/* ERROR */
+.error{
+    width: 100vw;
+    height: 100vh;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}   
+
+
+/* Contact */
+

@@ -18,4 +18,4 @@ this is a simple portfolio slim
 `composer install`
 don't forget to import the database
 
-Made with love by Théa Dos Santos aka @eltha9 (anciennement Philippe)
+Made with love by Théa Dos Santos aka @eltha9
